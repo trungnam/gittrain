@@ -1,0 +1,110 @@
+LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
+      //      LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+      //
+      //  LinearLayout.LayoutParams layoutParams= new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
+      //      LinearLayout.LayoutParams.WRAP_CONTENT );
+      //
+      //
+      //  //increase id number
+      //
+      //  LinearLayout layoutGroup = new LinearLayout(getApplicationContext());
+      //  layoutGroup.setLayoutParams(layoutParams);
+      //  layoutGroup.setOrientation(LinearLayout.HORIZONTAL);
+      //  layoutGroup.setId( jid++ );
+      //
+      //  ImageButton btndel =new ImageButton(getApplicationContext());
+      //  //  btndel.setId( jid++ );
+      //  btndel.setLayoutParams(params);
+      //  btndel.setImageResource(R.drawable.ic_close_red_200_24dp);
+      //  layoutGroup.addView(btndel);
+      //
+      //  final EditText ed = new EditText(getApplicationContext());
+      ////  ed.setId( jid+1 );
+      //  ed.setTextColor(Color.BLACK);
+      //  ed.setHint("Name");
+      //  ed.setLayoutParams(params);
+      //  layoutGroup.addView(ed);
+      //
+      //  final EditText edvalue = new EditText(getApplicationContext());
+      ////  edvalue.setId( jid+1 );
+      //  edvalue.setTextColor(Color.BLACK);
+      //  edvalue.setHint("Value");
+      //  edvalue.setLayoutParams(params);
+      //  layoutGroup.addView(edvalue);
+      //
+      //
+      //  Value value = new Value();
+      //  value.setId("" + jid);
+      //  value.setName("" + ed.getText().toString());
+      //  value.setValue("" + edvalue.getText().toString());
+      //
+      //  listValProp.add(value);
+      //
+      //  ed.addTextChangedListener(new TextWatcher() {
+      //    @Override public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+      //
+      //    }
+      //
+      //    @Override public void onTextChanged(CharSequence s, int start, int before, int count) {
+      //
+      //    }
+      //
+      //    @Override public void afterTextChanged(Editable s) {
+      //      int viewid =((View) ed.getParent()).getId();
+      //
+      //      for (Value val : listValProp){
+      //          if(val.getId().equals(""+ viewid)){
+      //              val.setName( "" + ed.getText() );
+      //          }
+      //      }
+      //    }
+      //  });
+      //
+      //  edvalue.addTextChangedListener(new TextWatcher() {
+      //    @Override public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+      //
+      //    }
+      //
+      //    @Override public void onTextChanged(CharSequence s, int start, int before, int count) {
+      //
+      //    }
+      //
+      //    @Override public void afterTextChanged(Editable s) {
+      //      int viewid =((View) edvalue.getParent()).getId();
+      //
+      //      for (Value val : listValProp){
+      //        if(val.getId().equals(""+ viewid)){
+      //          val.setValue( "" + ed.getText() );
+      //        }
+      //      }
+      //    }
+      //  });
+      //
+      //  btndel.setOnClickListener(new View.OnClickListener() {
+      //    @Override public void onClick(View v) {
+      //
+      //      layoutAdditionProp.removeView((View) v.getParent());
+      //
+      //      int viewid =((View) v.getParent()).getId();
+      //      Log.e("Dynamic View: " , "ViewID : " + viewid );
+      //
+      //      List<Value> toRemove = new ArrayList<>();
+      //      for(Value a: listValProp){
+      //        if(a.getId().equalsIgnoreCase("" + viewid )){
+      //          toRemove.add(a);
+      //        }
+      //      }
+      //      listValProp.removeAll(toRemove);
+      //
+      //      try {
+      //
+      //        Log.e("LisVal: " , "Size : " + listValProp.size() );
+      //
+      //      }catch (Exception ex){
+      //
+      //      }
+      //
+      //    }
+      //  });
+      //
+      //  layoutAdditionProp.addView( layoutGroup );
